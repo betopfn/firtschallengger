@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Outfit:wght@300;400;600&display=swap');
+body{
+    background-color: hsl(217, 54%, 11%) ;
+}
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+}
+.primeiroQuadrado{
+    width: 300px;
+    height: 480px;
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+    
+}
+.quadradoDeDentro{
+    width: 240px;
+    height: 240px;
+    margin-top: -70%;
+    border-radius: 5px;
+    background-image: url(images/image-equilibrium.jpg);
+    background-size: cover;
+    position: relative;
+}
+.quadradoDeDentro-hover{
+    opacity: 0;
+}
+.quadradoDeDentro-hover:hover{
+    opacity: 1;
+}
+.quadradoDeDentro-color{
+    z-index: 1;
+    width: 240px;
+    height: 240px;
+    background-color: hsl(178, 100%, 50%);
+    position: relative;
+    opacity: 50%;
+    background-size: cover;
+    border-radius: 5px;
+    
+}
+.iconOlho-hover{
+    position:absolute;
+    display: grid;
+    z-index: 2;
+    margin-left: 43.5%;
+    margin-top: 42%;
+    opacity: 1.0;
+    display: flex;
+    height: 35px;
+    width: 35px;
+    background-image: url(images/icon-view.svg);
+    background-size: cover;
+
+  }
+
+.primeiroTexto{
+    position: absolute;
+    margin:auto;
+    margin-top: 60px;
+    margin-right: 115px;
+    color: white;
+    font-weight: 600px;
+    font-family: 'Outfit', sans-serif;
+}
+.primeiroTexto:hover{
+    color: hsl(178, 100%, 50%);
+    
+}
+.segundoTexto{
+    position: absolute;
+    margin:auto;
+    margin-top: 140px;
+    margin-right: -8px;
+    color: hsl(215, 32%, 30%);
+    font-weight: 300px;
+    font-family: 'Outfit', sans-serif;
+}
+.caixaDeTexto1{
+    width: 245px;
+    height: 30px;
+    background-color: hsl(216, 50%, 16%);
+    margin-top: 25%;
+    position: absolute;
+    
+}
+.svg1{
+    margin-top: 2%;
+    position: absolute;
+    
+}
+.eth{
+    font-family: 'Outfit', sans-serif;
+    text-align: left;
+    color: hsl(178, 100%, 50%);
+    display: grid;
+    margin-left: 6%;
+    margin-top: 1.5%;
+
+}
+.relogio{
+    margin-top: -14%;
+    position: absolute;
+    margin-left: 60%;
+
+}
+.days{
+    font-family: 'Outfit', sans-serif;
+    text-align: left;
+    color: hsl(215, 32%, 30%);
+    display: grid;
+    margin-left: 70%;
+    margin-top: -14.5%;
+    
+}
+hr{
+   border-color: hsl(215, 32%, 30%);
+   margin-top: 14.5%;
+}   
+.caixaDeTexto2{
+    width: 245px;
+    height: 30px;
+    background-color: hsl(216, 50%, 16%);
+    margin-top: 45%;
+    position: absolute;
+    display: grid;
+} 
+.fotoDePerfil{
+    width: 14.2%;
+    height:100%;
+    background-image: url(images/image-avatar.png);
+    background-size: cover;
+}
+.create{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(215, 32%, 30%);
+    position:absolute;
+    font-size: 12px;
+    margin-top: 2.5%;
+    margin-left: 17%;
+    
+}
+.jules{
+    font-family: 'Outfit', sans-serif;
+    color: white;
+    margin-left: 42.5%;
+    font-size: 12px;
+    position: absolute;
+    margin-top: 2.5%;
+
+
+}
+.jules:hover{
+    color: hsl(178, 100%, 50%);
+   
+
+
+}
