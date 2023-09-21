@@ -130,12 +130,12 @@ hr{
     width: 245px;
     height: 30px;
     background-color: hsl(216, 50%, 16%);
-    margin-top: 45%;
+    margin-top: 42%;
     position: absolute;
     display: grid;
 } 
 .fotoDePerfil{
-    width: 14.2%;
+    width: 12.5%;
     height:100%;
     background-image: url(images/image-avatar.png);
     background-size: cover;
